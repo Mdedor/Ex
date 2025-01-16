@@ -113,7 +113,7 @@ namespace Ex
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(159, 380);
+            this.button1.Location = new System.Drawing.Point(166, 380);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 40);
             this.button1.TabIndex = 6;
@@ -129,7 +129,7 @@ namespace Ex
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(159, 426);
+            this.button2.Location = new System.Drawing.Point(166, 426);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 40);
             this.button2.TabIndex = 7;
@@ -140,9 +140,9 @@ namespace Ex
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(148, 260);
+            this.pictureBox2.Location = new System.Drawing.Point(142, 252);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(184, 95);
+            this.pictureBox2.Size = new System.Drawing.Size(190, 95);
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 

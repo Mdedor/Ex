@@ -42,7 +42,9 @@ namespace Ex
         {
             if(textBox1.Text == "user" && textBox2.Text == "user")
             {
-
+                main main = new main();
+                main.Show();
+                this.Hide();
             }
         }
         void edit()
@@ -55,7 +57,7 @@ namespace Ex
                 using (Graphics graphics = Graphics.FromImage(bitmap))
                 {
 
-                    graphics.Clear(Color.Gold);
+                    graphics.Clear(Color.BlueViolet);
 
 
                     using (Brush brush = new SolidBrush(Color.Red))
@@ -71,8 +73,8 @@ namespace Ex
                             int y = 10;
                             int xx;
                             int yy;
-                            Pen pen = new Pen(Color.Gray, 1);
-                            Pen pena = new Pen(Color.Gray, 4);
+                            Pen pen = new Pen(Color.Black, 1);
+                            Pen pena = new Pen(Color.Black, 4);
                             for (int i = 0; i < Random.Next(4, 6); i++)
                             {
                                 char mas = masAlf[Random.Next(0, masAlf.Length - 1)];
@@ -87,14 +89,7 @@ namespace Ex
 
                                 capcha += mas.ToString();
                             }
-                            for (int i = 0; i < pbHeight; i += 5)
-                            {
-                                graphics.DrawLine(pen, new PointF(0, i), new PointF(pbWidth, i));
-                            }
-                            for (int i = 0; i < pbWidth; i += 5)
-                            {
-                                graphics.DrawLine(pen, new PointF(i, 0), new PointF(i, pbHeight));
-                            }
+                            
 
 
                         }
@@ -110,7 +105,7 @@ namespace Ex
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Application.Exit();
         }
     }
 }
